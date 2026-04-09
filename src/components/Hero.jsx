@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import image from "../images/image.png"
 const Hero = () => {
   return (
-    <section className=" w-[95%] h-max mt-20 min-h-screen flex justify-center items-center bg-[#0B0F19] px-6 relative overflow-hidden">
+    <section id='Hero' className=" w-[95%] h-max mt-20 min-h-screen flex justify-center items-center bg-[#0B0F19] px-6 relative overflow-hidden">
 
   {/* Background Glow Effects */}
   <div className="absolute top-0 left-0 w-96 h-96 bg-pink-600/20 rounded-full blur-3xl -z-10"></div>
