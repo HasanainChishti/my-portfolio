@@ -10,7 +10,7 @@ const About = () => {
     <div className="space-y-6">
 
       <h2 className="text-4xl md:text-5xl font-bold">
-        About <span className="text-pink-600">Me</span>
+        About <span className="bg-linear-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Me</span>
       </h2>
 
       <p className="text-gray-400 text-lg leading-relaxed">
