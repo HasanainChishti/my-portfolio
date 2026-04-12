@@ -4,7 +4,7 @@ function Navbar() {
   const [active, setActive] = useState("home");
 
   return (
-    <nav id="navbar" className="fixed top-0 left-0 w-full backdrop-blur-md bg-white/1 border-b border-white/10 z-50">
+    <nav id="navbar" className="fixed top-0 left-0 w-full  bg-white/1 border-b border-white/10 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}

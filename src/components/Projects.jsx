@@ -2,6 +2,7 @@ import FoodDeliveryImage from "../images/FoodDelivery.png"
 import MyRecipi from "../images/My_Recipi.jpg"
 import Garage from "../images/AM_Motors.png"
 import Thumblify from "../images/Thumblify.png"
+import GithubProfileViewer from "../images/ProfileViewer.png"
 // const Projects=()=>{
 //     console.log(FoodDeliveryImage);
     
@@ -100,6 +101,19 @@ const projects = [
     live: "https://my-recipi-ai-isn5.vercel.app/#",
     code: "#",
     image:MyRecipi,
+  },
+  {
+    title: "Github profile Viewer",
+    desc: "Created a tool to search GitHub usernames and generate random IDs.",
+    tech: ["React", "API", "JavaScript"],
+    features: [
+      "AI integration",
+      "Dynamic results",
+      "User input based",
+    ],
+    live: "https://githubprofile-viewer-seven.vercel.app/",
+    code: "#",
+    image:GithubProfileViewer,
   },
    {
     title: "Garage Management Dashboard",
