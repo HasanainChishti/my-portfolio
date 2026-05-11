@@ -112,7 +112,7 @@ const projects = [
       "User input based",
     ],
     live: "https://githubprofile-viewer-seven.vercel.app/",
-    code: "#",
+    code: "https://github.com/HasanainChishti/GithubprofileViewer.git",
     image:GithubProfileViewer,
   },
    {

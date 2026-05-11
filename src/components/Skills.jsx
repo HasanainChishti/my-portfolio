@@ -18,7 +18,7 @@ const Skills = () => {
         </h3> */}
 
         <div className="flex flex-wrap gap-4 w-250">
-          {["React.js", "JavaScript (ES6+)", "Redux Toolkit", "HTML5", "CSS3", "Tailwind CSS","Bootstrap","DataStructures","Algorithms","Oop","jsx","C++","C Lang","problem Solving"].map((skill, index) => (
+          {["React.js", "JavaScript (ES6+)", "Redux Toolkit",'Node.js',"Express.js","Mongodb", "HTML5", "CSS3", "Tailwind CSS","Bootstrap","DataStructures","Algorithms","Oop","jsx","C++","C Lang","problem Solving"].map((skill, index) => (
             <div
               key={index}
               className="relative flex justify-center items-center hover:font-extrabold hover:bg-purple-400/15  w-35 text-center h-30 bg-[#1F2937] rounded-lg text-sm cursor-pointer overflow-hidden group"
