@@ -86,7 +86,7 @@ const projects = [
       "Responsive UI",
     ],
     live: "https://food-delivery-app-wfys.vercel.app/#",
-    code: "#",
+    code: "",
     image: FoodDeliveryImage,
   },
   {
@@ -99,7 +99,7 @@ const projects = [
       "User input based",
     ],
     live: "https://my-recipi-ai-isn5.vercel.app/#",
-    code: "#",
+    code: "",
     image:MyRecipi,
   },
   {
@@ -124,8 +124,8 @@ const projects = [
       "Search & filters",
       "Responsive UI",
     ],
-    live: "#",
-    code: "#",
+    live: "",
+    code:"",
     image: Garage,
   },
    {
@@ -137,8 +137,8 @@ const projects = [
       "Search & filters",
       "Responsive UI",
     ],
-    live: "#",
-    code: "#",
+    live: "",
+    code: "",
     image: Thumblify,
   },
    
