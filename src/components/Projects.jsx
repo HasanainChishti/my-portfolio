@@ -130,18 +130,41 @@ const Project = () => {
 
               {/* Buttons */}
               <div className="flex gap-4 pt-3">
-                <a
+               {
+                proj.live?(<a
                   href={proj.live}
                   className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm"
                 >
                   Live
-                </a>
-                <a
+                </a>):(
+                  
+      <button
+        disabled
+        className="bg-gray-500  px-4 py-2 rounded-md text-sm"
+      >
+        Live
+      </button>
+    
+                )
+               }
+                
+                          {
+                proj.code?(<a
                   href={proj.code}
-                  className="border border-gray-500 px-4 py-2 rounded-md text-sm hover:bg-gray-700"
+                  className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm"
                 >
-                  Code
-                </a>
+                  code
+                </a>):(
+                  
+      <button
+        disabled
+        className="bg-gray-500  px-4 py-2 rounded-md text-sm"
+      >
+        code
+      </button>
+    
+                )
+               }
               </div>
             </div>
           </div>
