@@ -14,7 +14,7 @@ const About = () => {
       </h2>
 
       <p className="text-gray-400 text-lg leading-relaxed">
-        I’m a passionate <span className="text-white font-medium">React Developer</span> who loves building modern, responsive and user-friendly web applications.
+        I’m a passionate <span className="text-white font-medium">Mern Stack Developer</span> who loves building modern, responsive and user-friendly web applications.
       </p>
 
       <p className="text-gray-400 leading-relaxed">

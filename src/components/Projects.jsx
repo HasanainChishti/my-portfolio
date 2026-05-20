@@ -3,77 +3,7 @@ import MyRecipi from "../images/My_Recipi.jpg"
 import Garage from "../images/AM_Motors.png"
 import Thumblify from "../images/Thumblify.png"
 import GithubProfileViewer from "../images/ProfileViewer.png"
-// const Projects=()=>{
-//     console.log(FoodDeliveryImage);
-    
-//     const projectsData=
-//     [
-//         {
-//             image:FoodDeliveryImage,
-//             name:"FoodDelivery Website",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','TaiwindCss','Javascript']
-//         },
-//          {
-//             image:MyRecipi,
-//             name:"My_Recipi Website",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','GeminiApi','TaiwindCss','Javascript']
-//         },
-//          {
-//             image:FoodDeliveryImage,
-//             name:"FoodDelivery Web",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','TaiwindCss','Javascript']
-//         },
-//          {
-//             image:FoodDeliveryImage,
-//             name:"FoodDelivery Web",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','TaiwindCss','Javascript']
-//         },
-//          {
-//             image:FoodDeliveryImage,
-//             name:"FoodDelivery Web",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','TaiwindCss','Javascript']
-//         },
-//          {
-//             image:FoodDeliveryImage,
-//             name:"FoodDelivery Web",
-//             description:"Built FoodDelivery Web in which user can order food",
-//             skills:['React','TaiwindCss','Javascript']
-//         },
-//     ]
-//        return (
-//         <section className=" mb-10 w-[90%]">
-//                 <div className="max-w-6xl grid grid-col-1  md:grid-cols-3 gap-8 rounded-xl h-50">
-//                      {
-//                          projectsData.map((proj)=>(
-//                            <div className="flex flex-col bg-gray-800 rounded-2xl h-120 gap-4">
-//                              <img src={proj.image} className="w-full h-60 rounded-2x" ></img>
-//                              <div >
-//                                  <h1 className="text-4xl font-bold ">{proj.name}</h1>
-//                               <p className="text-mono">{proj.description}</p>
-//                               <div className="flex text-mono gap-2 ">
-//                                  {
-//                                 proj.skills.map((skill)=>(
-//                                 <div className="flex  gap-2 border p-1 bg-slate-900 rounded-2xl px-2 py-1">{skill}</div>
-//                                 ))
-//                               }
-//                               </div>
-//                              </div>
-                             
-                             
-//                             </div>
-//                       ))
-//                      }
-//                 </div>
-//          </section>
-//        )
-// }
-// export default  Projects
-
+import ResumeAnalyzer from "../images/ResumeAnalyzer.png"
 
 const projects = [
   {
@@ -81,7 +11,8 @@ const projects = [
     desc:"AI-powered Resume Analyzer built with the MERN stack that analyzes resumes against job descriptions, provides skill matching and AI suggestions, and includes JWT authentication with user-specific history tracking",
     tech:["React","Node","Express","Mongodb"],
      live:"https://resume-analyzer-gamma-three.vercel.app/",
-     code:"https://github.com/HasanainChishti/resume-analyzer"
+     code:"https://github.com/HasanainChishti/resume-analyzer",
+     image:ResumeAnalyzer,
   },
   {
     title: "Foodie (Food Delivery App)",
