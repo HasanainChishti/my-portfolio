@@ -77,6 +77,13 @@ import GithubProfileViewer from "../images/ProfileViewer.png"
 
 const projects = [
   {
+    title:"Resume Analyzer",
+    desc:"AI-powered Resume Analyzer built with the MERN stack that analyzes resumes against job descriptions, provides skill matching and AI suggestions, and includes JWT authentication with user-specific history tracking",
+    tech:["React","Node","Express","Mongodb"],
+     live:"https://resume-analyzer-gamma-three.vercel.app/",
+     code:"https://github.com/HasanainChishti/resume-analyzer"
+  },
+  {
     title: "Foodie (Food Delivery App)",
     desc: "Built a full frontend food ordering experience with cart & filtering.",
     tech: ["React", "JavaScript", "Tailwind"],
@@ -137,7 +144,7 @@ const projects = [
       "Search & filters",
       "Responsive UI",
     ],
-    live: "",
+    live:"",
     code: "",
     image: Thumblify,
   },
